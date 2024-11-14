@@ -1,0 +1,50 @@
+/* Fondo con imagen y configuración general */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('fondo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+/* Contenedor de mensaje de éxito */
+.success-container {
+    background-color: rgba(0, 123, 255, 0.9); /* Azul con transparencia */
+    color: white;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    padding-bottom: 50px; /* Añadir espacio inferior para el botón */
+}
+
+/* Texto del mensaje */
+.success-container p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px; /* Añadir espacio debajo del mensaje */
+}
+
+/* Botón para regresar al menú */
+.back-btn {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: #ffffff;
+    color: #007bff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.back-btn:hover {
+    background-color: #e0e0e0;
+}
